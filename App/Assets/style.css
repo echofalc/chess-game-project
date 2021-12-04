@@ -19,34 +19,24 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 50rem;
+    height: 36rem;
     border: solid 1px yellow;
 }
 
+.box {
+    width: 60px;
+    height: 60px;
+}
 .white-box {
     background-color: white;
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .black-box {
     background-color: black;
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: white;
 }
 
 .white_captured {
     border: solid 1px purple;
-    
 }
 
 .white__captured {
@@ -55,8 +45,8 @@
 }
 
 .chess_board {
-    height: 500px;
-    width: 500px;
+    height: 480px;
+    width: 480px;
     margin-top: 4rem;
     display: flex;
     border: 3px solid black;
@@ -69,4 +59,12 @@
 .black__captured {
     border: solid 1px blue;
     text-align: center;
+}
+
+footer {
+    width: 100%;
+}
+.resetGame {
+    position: relative;
+    left: 50%;
 }
