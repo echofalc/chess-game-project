@@ -1,0 +1,70 @@
+.main_logo {
+    border: solid 1px red;
+    text-align: center;
+}
+
+.teams {
+    border: solid 1px green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.versus {
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.playing_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 36rem;
+    border: solid 1px yellow;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+}
+.white-box {
+    background-color: white;
+}
+.black-box {
+    background-color: black;
+    color: white;
+}
+
+.white_captured {
+    border: solid 1px purple;
+}
+
+.white__captured {
+    border: solid 1px blue;
+    text-align: center;
+}
+
+.chess_board {
+    height: 480px;
+    width: 480px;
+    margin-top: 4rem;
+    display: flex;
+    border: 3px solid black;
+}
+
+.black_captured {
+    border: solid 1px purple;  
+}
+
+.black__captured {
+    border: solid 1px blue;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+}
+.resetGame {
+    position: relative;
+    left: 50%;
+}
