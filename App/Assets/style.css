@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+h5 {
+    margin: 0em;
+}
+
 .teams {
     border: solid 1px green;
     display: flex;
@@ -31,7 +35,7 @@
     background-color: white;
 }
 .black-box {
-    background-color: black;
+    background-color: rgb(31, 68, 110);
     color: white;
 }
 
