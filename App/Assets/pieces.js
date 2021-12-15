@@ -10,9 +10,8 @@ class Piece {
 }
 
 class Pawn extends Piece{
-    constructor(color, space, selector) {
+    constructor(color, space) {
         super(color, "pawn");
-        this.selector = doc
         let pawn = document.createElement("img")
         if (color === "white") {
           pawn.src = "./assets/images/wp.svg"
