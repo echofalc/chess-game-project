@@ -22,5 +22,25 @@
         > move/capture one space in any direction
         > cannot be captured
 
+## Action Items
+- places imgs of each pieces in proper starting position
+- create objects from each piece with their own particular movement pattern
+- determine objects that need to be created
+- determine functions 
+
+
 ## Notes
 - 
+
+## Pseudocode
+// object for pieces
+let test = {
+    b_pawn8: {
+        position: 'h8',
+        captured: false,
+        type: 'b_pawn',
+        moved: false
+    }
+}
+
+// function to set piece on board

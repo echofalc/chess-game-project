@@ -3,6 +3,9 @@
     text-align: center;
 }
 
+h5 {
+    margin: 0em;
+}
 
 .teams {
     border: solid 1px green;
